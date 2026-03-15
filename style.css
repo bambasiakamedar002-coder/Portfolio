@@ -47,7 +47,7 @@ header{
     padding: 0 16px; 
     height: 60px; 
     border-bottom: solid white 1px;
-    filter: blur(0.5px); 
+    /* filter: blur(0.5px);  */
     width: 100%;
     position: fixed;
     /* overflow-x: hidden; */
@@ -148,7 +148,7 @@ header{
     #0b0b0b 100%
   );
     height: calc(100vh - 60px);
-    filter: blur(0.5px); 
+    /* filter: blur(0.5px);  */
 
 }
 .left p{
@@ -217,7 +217,7 @@ header{
     padding: 0 9%;
     font-weight: bold;
     background-color:rgb(8, 8, 8); 
-    filter: blur(0.5px); 
+    /* filter: blur(0.5px);  */
     /* width: 100%; */
 }
 .progress {
@@ -326,7 +326,7 @@ header{
   background: rgb(8, 8, 8);
   padding: 90px 10%;
   color: #fff;
-  filter: blur(0.5px); 
+  /* filter: blur(0.5px);  */
   width: 100;
 }
 
@@ -445,7 +445,7 @@ a{
     background: rgb(8, 8, 8);
     display: flex;
     flex-direction: column;
-    filter: blur(0.5px); 
+    /* filter: blur(0.5px);  */
     padding-bottom: 50px;
 }
 #Projet h2{
@@ -516,7 +516,7 @@ textarea{
 }
 #contact{
      background: rgb(8, 8, 8);
-     filter: blur(0.5px);
+     /* filter: blur(0.5px); */
 }
 #contact p,h2{
     color: white;
@@ -806,6 +806,7 @@ input[type="email"]{
 .info-freelance-span{
     display: none;
 }
+
 }
 /*animation*/
 @keyframes anime {
