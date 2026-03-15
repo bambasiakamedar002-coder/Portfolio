@@ -6,6 +6,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
 </head>
 <body>
     <header>
@@ -19,7 +21,7 @@
                 <li><a href="#SERVICES">Services</a></li>
                 <li><a href="#a-propos">A propos</a></li>
                 <li><a href="#Projet">Projets</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div id="btn-menu" >
@@ -140,6 +142,47 @@
     </div>
   </div>
 </section>
-
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="P">Vous avez un proje web ? je suis disponible pour des missions freelance en developpement frontend.</p>
+  <div class="contact-info">
+    <div class="info">
+      <div class="info-name">
+        <i class="bi bi-person-fill"></i>
+        <p>Nom: Siaka BAMBA</p>
+      </div>
+      <div class="info-localisation">
+        <i class="bi bi-geo-alt-fill"></i>
+        <p>Localisation: Togo</p>
+      </div>
+      <div class="info-email">
+        <i class="bi bi-envelope-at-fill"></i>
+         <p>Email: <a href="bambasiakamedar002@gmail.com">bambasiakamedar002@gmail.com</a></p>
+      </div>
+      <div class="info-github">
+       <i class="bi bi-github"></i>
+       <p><span class="info-github-span">GitHub:</span> <a href="https://github.com/bambasiakamedar002-coder">https://github.com/bambasiakamedar002-coder</a></p> 
+      </div>
+      <div class="info-freelance">
+        <i class="bi bi-briefcase"></i>
+        <p><span class="info-freelance-span">Codeur.com: </span><a href="https://www.codeur.com/-siakab">https://www.codeur.com/-siakab</a></p>
+      </div>
+    </div>
+    <div class="formulaire">
+      <form action="https://formspree.io/f/mnjgbven" method="POST">
+        <div>
+          <label for="name">Nom:</label>
+          <input type="text" name="name" id="name" placeholder="Votre nom" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Votre email" required>
+        </div>
+        <textarea name="message" id="message" placeholder="Votre message"></textarea>
+        <button type="submit" class="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
+</section>
 </body>
 </html>
