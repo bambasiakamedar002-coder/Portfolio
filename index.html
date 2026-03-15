@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./logo.png" alt="logo du sit">
+            <h2>Portfolio</h2>
+        </div>
+        <ul class="nav">
+                <li><a href="#HOME">Acceuil</a></li>
+                <li><a href="#skills"> Compétences</a></li>
+                <li><a href="#SERVICES">Services</a></li>
+                <li><a href="#a-propos">A propos</a></li>
+                <li><a href="#Projet">Projets</a></li>
+                <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div id="btn-menu" >
+                <button >OPEN</button>
+        </div>
+        <div class="nav-bar" id="nav-barid">
+                <div class="close-bar">
+                    <p>FERMER</p>
+                </div>
+                <ul class="menu-bar">
+                      <li><a href="#HOME" onclick="closebar()">Acceuil</a></li>
+                      <li><a href="#skills" onclick="closebar()"> Compétences</a></li>
+                      <li><a href="#SERVICES" onclick="closebar()">Services</a></li>
+                      <li><a href="#a-propos" onclick="closebar()">A propos</a></li>
+                      <li><a href="#Projet"  onclick="closebar()">Projets</a></li>
+                      <li><a href="#"  onclick="closebar()">Contact</a></li>
+                </ul>
+        </div>
+    </header>
+    <section class="home" id="HOME">
+        <div class="left">
+            <p>Bienvenue dans mon monde !</p>
+            <h2><span class="P-color">B</span>AMBA S<span class="P-color">i</span>aka Me<span class="P-color">d</span>ar</h2>
+            <h3><span class="D-color">Développeur web junior </span> passionné par la création d’interfaces modernes et performantes.</h3>
+            <p> Dévéloppeur passionné en formation universitaire, 
+                je crée des sites web fonctionnels et modernes 
+                et je transforme vos idées en projets complets 
+            </p>
+        </div>
+        <div class="right">
+            <div class="profile">
+            <img src="./profile.jpeg" alt="photo de profile">
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+  <h2>Compétences</h2>
+    <div class="cadre">
+    <div class="skill">
+        <span class="htmlspan">HTML5</span>
+    <div class="bar">
+        <div class="progress html"><span> 40% </span></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span class="cssspan">CSS3</span>
+    <div class="bar">
+      <div class="progress css"><span>40%</span></div>
+    </div>
+  </div>
+<!-- <span class="pourcen"></span> -->
+  <div class="skill">
+    <span class="jsspan">JavaScript</span>
+    <div class="bar">
+      <div class="progress js"><span> 20% </span></div>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="services" id="SERVICES">
+  <h2>Services</h2>
+  <div class="service">
+    <h3>Front-End Development</h3>
+    <p>Création de sites web modernes avec HTML, CSS et JavaScript.</p>
+  </div>
+
+  <div class="service">
+    <h3>Intégration Web</h3>
+    <p>Transformation de maquettes en pages web responsives.</p>
+  </div>
+
+  <div class="service">
+    <h3>JavaScript</h3>
+    <p>Développement de mini-applications interactives.</p>
+  </div>
+</section>
+<section id="a-propos">
+  <h2>À propos de moi</h2>
+  <p>
+    Je m'appelle <strong>Bamba Siaka Medar</strong>, développeur web junior passionné
+    par la création de sites modernes et interactifs.
+  </p>
+
+  <p>
+    Je travaille principalement avec <strong>HTML, CSS et JavaScript</strong>.
+    J’aime apprendre, pratiquer et améliorer mes compétences à travers des projets personnels.
+  </p>
+
+  <p>
+    Actuellement étudiant en informatique, je souhaite évoluer dans le domaine
+    du développement web et participer à des projets professionnels.
+  </p>
+
+  <p>
+    <strong>Compétences :</strong> HTML • CSS • JavaScript<br>
+    <strong>Outils :</strong> VS Code • Git
+  </p>
+</section>
+<section id="Projet">
+  <h2>Projets</h2>
+  <div class="containers">
+    <div class="projet-1">
+      <img src="./projet-1.jpg" alt="">
+      <a href="https://bambasiakamedar002-coder.github.io/TO-DO-LIST/">Voir projet</a>
+    </div>
+    <div class="projet-2">
+      <img src="./projet-2.jpg" alt="">
+      <a href="https://bambasiakamedar002-coder.github.io/Application-m-t-o/">Voir projet</a>
+    </div>
+    <div class="projet-3">
+      <img src="./projet-4.png" alt="">
+      <a href="https://bambasiakamedar002-coder.github.io/Shifumi/">Voir projet</a>
+    </div>
+    <div class="projet-4">
+      <img src="./projet-6.png" alt="">
+      <a href="https://bambasiakamedar002-coder.github.io/carteprofile/">Voir projet</a>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
